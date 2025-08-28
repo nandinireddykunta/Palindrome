@@ -1,4 +1,4 @@
-public class Palindrome{
+public class palindrome.java {
     public static void main(String[]args) {
         if (args.length==0) {
             System.out.println("Please provide a word to check!");
@@ -14,4 +14,5 @@ public class Palindrome{
 public static boolean isPalindrome(String str) {
     String reversed=new StringBuilder(str).reverse().toString();
     return str.equalsIgnoreCase(reversed);
+}
 }
